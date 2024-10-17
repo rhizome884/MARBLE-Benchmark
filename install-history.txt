@@ -1,0 +1,51 @@
+ 2001  conda env list
+ 2002  conda env remove -n marble
+ 2003  conda create -n marble python=3.9
+ 2004  conda acitvate marble
+ 2005  conda activate marble
+ 2006  cd /media/rhizome884/Data/PhD_Cardiff/MARBLE-Benchmark/
+ 2007  ls
+ 2008  conda install --yes --file requirements.txt 
+ 2009  pip install -r requirements.txt 
+ 2010  pip install Cython
+ 2011  pip install -r requirements.txt 
+ 2012  nvim requirements.txt 
+ 2013  pip install -r requirements.txt 
+ 2014  python
+ 2015  pwd
+ 2016  export PROJECT_ROOT=$pwd
+ 2017  cd ..
+ 2018  cd ${PROJECT_ROOT}
+ 2019  export PROJECT_ROOT=/media/rhizome884/Data/PhD_Cardiff/MARBLE-Benchmark/
+ 2020  cd ${PROJECT_ROOT}
+ 2021  mkdir data
+ 2022  mkdir ./data/wandb
+ 2023  mkdir ./data/hubert_data
+ 2024  ls
+ 2025  bash exp_scripts/download/download_emo.sh
+ 2026  bash exp_scripts/preprocess/preprocess_emo.sh
+ 2027  ls
+ 2028  python . extract -c configs/mert/MERT-v1-95M/EMO.yaml
+ 2029  pip install madmom
+ 2030  python . extract -c configs/mert/MERT-v1-95M/EMO.yaml
+ 2031  wandb login
+ 2032  python . probe -h
+ 2033  python . probe -c configs/mert/MERT-v1-95M/EMO.yaml
+ 2034  grep -rnw ./ -e wandb.init
+ 2035  cd benchmark/utils/
+ 2036  ls
+ 2037  nvim get_logger.py 
+ 2038  cd -
+ 2039  python . probe -c configs/mert/MERT-v1-95M/EMO.yaml
+ 2040  history
+ 2041  git status
+ 2042  git add .
+ 2043  git status
+ 2044  git commit -m 'basic setup'
+ 2045  git status
+ 2046  git push origin local
+ 2047  git status
+ 2048  ls
+ 2049  history
+ 2050  ls
+ 2051  history > install-history.txt
