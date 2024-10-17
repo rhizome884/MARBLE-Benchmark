@@ -1,0 +1,2 @@
+- Installation works with python=3.9, but I had issues with more recent versions. 
+- If the installation fails with "pip install -r requirements", try installing Cython with pip and then doing a full requirements.txt install.

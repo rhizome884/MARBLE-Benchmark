@@ -1,0 +1,172 @@
+  988  conda create -n marble python=3.9
+  989  conda activate marble
+  990  source activate
+  991  conda activate marble
+  992  cd ~
+  993  vim .tmux.conf 
+  994  tmux
+  995  cat .tmux.conf 
+  996  exit
+  997  tmux
+  998  vim .tmux.conf 
+  999  exit
+ 1000  ls
+ 1001  cd /scratch/$USER
+ 1002  source activate
+ 1003  conda activate
+ 1004  conda activate marble
+ 1005  ls
+ 1006  cd MARBLE-Benchmark/
+ 1007  pip install Cython
+ 1008  cat requirements.txt 
+ 1009  git status
+ 1010  git branch local
+ 1011  ls
+ 1012  cat requirements.txt 
+ 1013  git branch
+ 1014  git checkout
+ 1015  git branch
+ 1016  git switch local
+ 1017  git checkout local
+ 1018  cat requirements.txt 
+ 1019  cd ..
+ 1020  ls
+ 1021  rm -rf MARBLE-Benchmark/
+ 1022  git clone https://github.com/rhizome884/MARBLE-Benchmark.git
+ 1023  git switch local
+ 1024  git branch
+ 1025  cd MARBLE-Benchmark/
+ 1026  git branch
+ 1027  cat ls
+ 1028  git switch local
+ 1029  cd ..
+ 1030  ls
+ 1031  rm -rf MARBLE-Benchmark/
+ 1032  git clone git clone user@git-server:project_name.git -b local
+ 1033  git clone https://github.com/rhizome884/MARBLE-Benchmark.git -b local
+ 1034  ls
+ 1035  cd MARBLE-Benchmark/
+ 1036  ls
+ 1037  git branch
+ 1038  cat requirements.txt 
+ 1039  git branch hawk
+ 1040  git branch
+ 1041  git switch
+ 1042  git switch hawk
+ 1043  git checkout
+ 1044  git branch
+ 1045  git checkout hawk
+ 1046  git branch
+ 1047  cat requirements.txt 
+ 1048  pip install -r requirements.txt 
+ 1049  pwd
+ 1050  cd ~
+ 1051  export PROJECT_ROOT=/scratch/c.c22091860/MARBLE-Benchmark/
+ 1052  cd ${PROJECT_ROOT}/
+ 1053  mkdir data
+ 1054  mkdir ./data/wandb
+ 1055  mkdir ./data/hubert_data
+ 1056  cp ../my_marble/extract.sh .
+ 1057  ls
+ 1058  git status
+ 1059  vim extract.sh 
+ 1060  cp extract.sh download.sh
+ 1061  vim download.sh 
+ 1062  ls
+ 1063  mkdir log_slurm
+ 1064  vim download.sh 
+ 1065  cd ~
+ 1066  ls
+ 1067  cd templates/
+ 1068  ls
+ 1069  cp dev-slurm.sh /scratch/$USER
+ 1070  cd $PROJECT_ROOT
+ 1071  vim download.sh 
+ 1072  cat download.sh 
+ 1073  sbatch download.sh 
+ 1074  ls ~/templates/
+ 1075  cat ~/templates/comsc-slurm.sh 
+ 1076  cat extract.sh 
+ 1077  vim download.sh 
+ 1078  sbatch download.sh 
+ 1079  ls
+ 1080  ls log_slurm/
+ 1081  squeue -u $USER
+ 1082  ls log_slurm/
+ 1083  ls
+ 1084  squeue -u $USER
+ 1085  scancel -u $USER
+ 1086  sinfo
+ 1087  sinfo | grep idel
+ 1088  sinfo | grep idle
+ 1089  vim download.sh 
+ 1090  sbatch download.sh 
+ 1091  vim download.sh 
+ 1092  sbatch download.sh 
+ 1093  vim download.sh 
+ 1094  sbatch download.sh 
+ 1095  vim download.sh 
+ 1096  sbatch download.sh 
+ 1097  ls
+ 1098  rm download.sh 
+ 1099  ls
+ 1100  bash exp_scripts/download/download_emo.sh
+ 1101  ls
+ 1102  vim extract.sh 
+ 1103  cp extract.sh preprocess.sh
+ 1104  vim preprocess.sh 
+ 1105  sbatch preprocess.sh 
+ 1106  ls
+ 1107  cat extract.e.58381629 
+ 1108  conda install conda-forge::ffmpeg
+ 1109  ls
+ 1110  rm *5838*
+ 1111  ls
+ 1112  vim preprocess.sh 
+ 1113  sbatch preprocess.sh 
+ 1114  ls log_slurm/
+ 1115  cd log_slurm/
+ 1116  cat preprocess.e.58381646 
+ 1117  cat preprocess.o.58381646 
+ 1118  cat preprocess.e.58381646 
+ 1119  cat preprocess.o.58381646 
+ 1120  cat preprocess.e.58381646 
+ 1121  squeue -u $USER
+ 1122  cat preprocess.e.58381646 
+ 1123  cat preprocess.o.58381646 
+ 1124  cat preprocess.e.58381646 
+ 1125  squeue -u $USER
+ 1126  cat preprocess.e.58381646 
+ 1127  cat preprocess.o.58381646 
+ 1128  cat preprocess.e.58381646 
+ 1129  cat preprocess.o.58381646 
+ 1130  cd ..
+ 1131  vim extract.sh 
+ 1132  sbatch extract.sh 
+ 1133  cd log_slurm/
+ 1134  ls
+ 1135  cat extract.e.58381666 
+ 1136  cat extract.o.58381666 
+ 1137  cat extract.e.58381666 
+ 1138  pip install madmom
+ 1139  ls
+ 1140  rm extract.*
+ 1141  ls
+ 1142  cd ..
+ 1143  sbatch extract.sh 
+ 1144  cd log_slurm/
+ 1145  cat extract.e.58381667 
+ 1146  cat extract.o.58381667 
+ 1147  cat extract.e.58381667 
+ 1148  cat extract.o.58381667 
+ 1149  cd ..
+ 1150  ls
+ 1151  cp ../my_marble/probe.sh .
+ 1152  vim probe.sh 
+ 1153  sbatch probe.sh 
+ 1154  squeue -u $USER
+ 1155  cd log_slurm/
+ 1156  ls
+ 1157  cat probe.e.58381668 
+ 1158  history
+ 1159  history > history.txt
