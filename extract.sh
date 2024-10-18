@@ -16,7 +16,7 @@ echo 'Start script'
 
 # COMMANDS
 
-python . extract -c configs/mert/MERT-v1-95M/EMO.yaml
-#python . extract -c configs/musicnn/GTZAN.yaml
+# python . extract -c configs/mert/MERT-v1-95M/EMO.yaml
+python . extract -c configs/mert/MERT-v1-95M/GTZAN.yaml
 
 echo 'End script'
