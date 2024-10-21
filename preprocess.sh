@@ -16,6 +16,6 @@ echo 'Start script'
 
 # COMMANDS
 
-bash exp_scripts/preprocess/preprocess_emo.sh
+bash exp_scripts/preprocess/preprocess_vocalset.sh
 
 echo 'End script'

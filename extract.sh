@@ -17,6 +17,9 @@ echo 'Start script'
 # COMMANDS
 
 # python . extract -c configs/mert/MERT-v1-95M/EMO.yaml
-python . extract -c configs/mert/MERT-v1-95M/GTZAN.yaml
+# python . extract -c configs/mert/MERT-v1-95M/GTZAN.yaml
+# python . extract -c configs/mert/MERT-v1-95M/VocalSetT.yaml
+python . extract -c configs/mert/MERT-v1-95M/VocalSetS.yaml
+# python . extract -c configs/mule/VocalSetS.yaml # not working yet
 
 echo 'End script'
